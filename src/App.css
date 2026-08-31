@@ -1,0 +1,22 @@
+.calc_wrapper{
+  max-width: 300px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+input{
+  width: 100%;
+  margin-bottom: 10px !important;
+  border: 1px solid grey !important;
+  outline: none;
+  height: 40px;
+}
+#btn_container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.btn{
+  margin: 5px;
+  background-color: rgb(236, 236, 235) !important;
+}
